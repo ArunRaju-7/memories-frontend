@@ -92,7 +92,7 @@ const Auth = () =>{
                     <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
                         {isSignup? 'Sign Up' : 'Sign In'}
                     </Button>
-                    <GoogleOAuthProvider clientId="186266309382-b2st45gmujajhspt1fcjnqg7sf6djkrs.apps.googleusercontent.com">
+                    {/* <GoogleOAuthProvider clientId="186266309382-b2st45gmujajhspt1fcjnqg7sf6djkrs.apps.googleusercontent.com">
                     <GoogleLogin 
                         render={(renderProps)=>(
                             <Button 
@@ -108,7 +108,7 @@ const Auth = () =>{
                         onFailure={googleFailure}
                         cookiePolicy="single_host_origin"
                     />
-                    </GoogleOAuthProvider>
+                    </GoogleOAuthProvider> */}
                 
                     {/* <GoogleLogin 
                         clientId="186266309382-b2st45gmujajhspt1fcjnqg7sf6djkrs.apps.googleusercontent.com"

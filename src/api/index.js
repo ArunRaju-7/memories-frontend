@@ -18,7 +18,7 @@ export const fetchPosts = () => API.get('/posts');
 
 export const fetchPostbySearch = (searchQuery) => API.get(`/posts/search?searchQuery=${searchQuery.search||'none'}&tags=${searchQuery.tags}`)
 
-export const createPost = (newPost) => API.post('/posts', newPost)
+export const createPost = (newPost) => API.post('/posts/create', newPost)
 
 export const updatePost = (id, post_data) => API.patch(`/posts/${id}`, post_data);
 
